@@ -1,0 +1,50 @@
+#particles-js {
+
+
+    height: 720px;
+    background-image: url('images/bg.jpg');
+    
+    background-size: cover;
+    background-image: url("images/bg.jpg");
+}
+
+.loginform {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    background-color: #ffffff80;
+    padding: 20px;
+    text-align: center;
+    margin: -135px 0px 0px -170px;
+}
+
+.reg {
+    background-color: aqua;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 3px;
+
+}
+
+.stf {
+    background-color: greenyellow;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 3px;
+
+
+}
+
+.admin_nav {}
+
+.admin_nav ul {}
+
+.admin_nav ul li {
+    text-decoration: none;
+}
+
+.admin_nav ul li a {
+    padding: 36px;
+    text-decoration: none;
+    font-weight: bold;
+}

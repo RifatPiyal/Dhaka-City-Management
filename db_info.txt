@@ -1,0 +1,32 @@
+CREATE TABLE `admin` (
+  `email` varchar(30) NOT NULL,
+  `password` varchar(30) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+
+
+CREATE TABLE `Volunteer` (
+  `email` varchar(30) NOT NULL,
+  `password` varchar(30) NOT NULL,
+  `fullname` varchar(30) NOT NULL,
+  `speciality` varchar(30) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `Citizen` (
+  `email` varchar(30) NOT NULL,
+  `password` varchar(30) NOT NULL,
+  `fullname` varchar(30) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+
+
+
+
+ALTER TABLE `Volunteer`
+  ADD UNIQUE KEY `email` (`email`);
+
+ALTER TABLE `Citizen`
+  ADD UNIQUE KEY `username` (`email`);

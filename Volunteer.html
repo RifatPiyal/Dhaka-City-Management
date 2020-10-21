@@ -1,0 +1,156 @@
+
+
+
+<?php
+    if (!isset($_SESSION)) {
+        session_start();
+    }
+?>
+<?php 
+  include("library.php");
+  noAccessIfLoggedIn();
+?>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Volunteer</title>
+    <title>Admin_login</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link href="css/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/1ststyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container-fluid ">
+        <div class="row cover_img">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <div class="pro_icon">
+                    <img src="https://s33.postimg.cc/oqth6zglb/savar-upazila-map-dhaka-district-bangladesh.gif" alt="" style="    height: 150px;
+    width: 150px;">
+                </div>
+
+
+            </div>
+            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                <h1 style="margin-top: 75px;font-family:'Roboto Mono', monospace; font-weight: bold;">Welcome to Dhaka City</h1>
+
+
+            </div>
+
+
+        </div>
+
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light doctors_menu">
+            <a class="navbar-brand custom_navbar-brand " style="margin-left: 30px;" href="#">Volunteer</a>
+<!--
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+-->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav custom_nav">
+
+                       <li class="nav-item active form_text_edit">
+                          <form method="" action="" class="text-center">
+       <label class="text-center">Profile</label><br>
+     
+        
+        
+        
+    </form>
+    <br>
+      </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Create Events</a>
+                    </li>
+                  
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="row">
+
+        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+
+        </div>
+
+
+    </div>
+    <div class="row">
+        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+
+        </div>
+
+        <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 body_wrapper">
+            <div class="row">
+               <h1 style="margin-top: 75px;font-family:'Roboto Mono', monospace; color: white; font-weight: bold;text-align: center " id="pd">Dhaka City Details</h1>
+               
+               <p style="font-size: 30px;
+               color: white !important; margin: 40px 0; color:darkseagreen !important;">
+
+
+                   <strong>Dhaka</strong> formerly known as Dacca which is the capital and largest city of Bangladesh. It is one of the world's largest cities, with a population of 18.89 million people in the Greater Dhaka Area.It is also the 4th most densely populated city in the world. Dhaka is the economic, political and cultural center of Bangladesh. It is one of the major cities of South Asia, the largest city in Eastern South Asia and among the Bay of Bengal countries; and one of the largest cities among OIC countries. As part of the Bengal plain, the city is bounded by the Buriganga River, Turag River, Dhaleshwari River and Shitalakshya River. The city is located in an eponymous district and division.
+               
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div  data-aos="fade-down" class="today_payment">
+      
+                    
+                </div>
+
+                </div>
+                
+                   <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                 <div  data-aos="fade-down" class="today_payment" style="padding-bottom: 45px;">
+                  <h2 style="text-align: center">New Member Added Today</h2>
+                  <h3 style="text-align: center"> </h3><span  class="pay_count text-center">100+</span>
+                  <h3 style="text-align: center">Requsted</h3><span class="pay_count">10+</span>
+                
+                    
+                </div>
+
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                 <div  data-aos="fade-down" class="today_payment" style="padding-bottom: 45px;">
+                  <h2 style="text-align: center">Blood needed</h2>
+                  <h3 style="text-align: center"> </h3><span  class="pay_count text-center">25+</span>
+                  <h3 style="text-align: center">Manage Blood</h3><span class="pay_count">10+</span>
+                
+                    
+                </div>
+
+                </div>
+           
+
+
+        </div>
+
+
+
+    </div>
+
+    </div>
+ 
+
+
+
+
+
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
