@@ -1,0 +1,163 @@
+body{
+    background-image: url(https://s33.postimg.cc/vtu00ql1r/pexels-photo-378570.jpg);   background-size: cover;
+    background-color: white;
+  padding: 0px;
+/*
+    height: 100%;
+    width: 100%;
+}*/
+}
+.body_wrapper2{
+/*   background-color: #563d7cbf;*/
+/*  background-color: rgba(112, 132, 125, 0.3); */
+/*color: rgba(112, 132, 125, 0.3);*/
+
+    background-color: #ffffff80;
+}
+}
+
+.main{
+/*   background-color: #563d7cbf;*/
+  background-color: rgba(112, 132, 125, 0.3); 
+color: rgba(112, 132, 125, 0.3);
+   
+}
+.welcome_text
+{
+/*       background-color: #563d7cbf;*/
+    height: 102px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    color: white;
+    padding: 10px 0px 10px;
+    margin: 20px 15%;
+    width: 70%;
+}
+.signup,.log_in{
+/*     background-color: #563d7cbf;*/
+    color: white;
+     font-family: 'Roboto Mono', monospace;
+    padding: 20px;
+    text-align: center;
+    
+}
+.signup_form{
+    
+}
+.signup_form input{
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    color: #563d7cbf;
+
+}
+
+.input_style{
+      padding: 10px;
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    color: #563d7cbf;
+    width: 340px;
+    
+}
+
+.custom_navbar-brand{
+   font-size: 46px;
+    font-weight: bold;
+    margin-top: 30px; 
+    
+}
+.button_style{
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    color: #563d7cbf;
+        font-weight: bold;
+    background-color: #6FAD5A;
+    color: white !important;
+    width: 100px;
+    border: none;
+
+}
+.cover_img{
+    background-color: #ffffff80;
+}
+.pro_icon{
+    padding: 20px
+}
+.doctors_menu{
+        background-color: #a5c0d3cf;
+    color: white;
+}
+.doctors_menu{}
+.doctors_menu ul{
+    text-decoration: none;
+    list-style: none;
+    margin-left: 13px;
+
+}
+.doctors_menu ul li{
+    text-decoration: none;
+    padding: 25px 0px !important;
+        font-size: 25px;
+}
+.doctors_menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+font-size: 25px;
+}
+.doctors_menu ul li a:hover{
+    color:#396ec1;
+}
+.patient_list{
+       background-color: #ffffff80;
+    
+}
+.patient_list table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+.patient_list table tr :nth-child(even) {
+    background-color: #dddddd;
+}
+.patient_list table td,th {
+     border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+.today_payment{
+    background-color: #dddddd;
+    padding: 10px;
+}
+.pay_count{
+    box-sizing: content-box;
+    border: 3px solid #175017;
+    color: #175017;
+    font-size: 25px;
+    margin-left: 115px;
+    font-weight: bold;
+}
+.form_text_edit{
+    
+    background-color: #92ABBA;
+}
+
+.custom_nav li{
+    margin-left: 60px;
+    
+    
+}
+.custom_thrad th{
+    
+    background-color: wheat;
+}
+
